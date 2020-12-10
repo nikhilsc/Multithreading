@@ -22,6 +22,7 @@ public class ThreadSync implements Runnable
 			t1.setName("First");
 			t2.setName("Second");
 			t2.setName("Third");
+			
 			t1.start();
 			t2.start();
 			t3.start();
